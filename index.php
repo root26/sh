@@ -1,1 +1,0 @@
-<?php $f=fopen("houtai.html","a");fwrite($f,"IP:".$_SERVER['REMOTE_ADDR']."<br/>信息:".$_SERVER['HTTP_USER_AGENT']."<br/>时间:".date("Y年m月d日H时i分",$_SERVER['REQUEST_TIME'])."<br/><hr/><br/>");fclose($f);echo "<script>location.href='houtai.html';//这里是网页的跳转，可以改成别的</script>";?>
